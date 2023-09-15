@@ -25,7 +25,7 @@
         {
             "key": "field_650396fb9cf5f",
             "label": "Карточки",
-            "name": "карточки",
+            "name": "benefit_cards",
             "aria-label": "",
             "type": "repeater",
             "instructions": "",
@@ -133,5 +133,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1694734272
+    "modified": 1694790691
 }

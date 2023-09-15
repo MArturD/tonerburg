@@ -1,7 +1,11 @@
 <div class="application margin-bottom">
     <div class="wrap">
         <div class="application-wrap">
+
+            <?php echo do_shortcode( '[contact-form-7 id="c92b537" title="Форма Заявки " html_class="application-form"]' ); ?>
+
             <form action="" class="application-form">
+
                 <div class="application-form__info">
                     <p class="application-form__title heading">Оставьте свою заявку</p>
                     <p class="application-form__description text-font">и наш менеджер свяжется с вами в течение 10 минут</p>
