@@ -16,13 +16,13 @@
                 <div class="banner-contacts">
                     <div class="contacts-icons">
                         <div class="contacts-icons__item">
-                            <a href="#"><img src="<?php bloginfo('template_url'); ?>/assets/images/icons/mail.svg"></a>
+                            <a href="mailto:<?php echo get_field("mail_link", "options")?>"><img src="<?php bloginfo('template_url'); ?>/assets/images/icons/mail.svg"></a>
                         </div>
                         <div class="contacts-icons__item">
-                            <a href="#"><img src="<?php bloginfo('template_url'); ?>/assets/images/icons/tg.svg"></a>
+                            <a href="<?php echo get_field("tg_link", "options")?>"><img src="<?php bloginfo('template_url'); ?>/assets/images/icons/tg.svg"></a>
                         </div>
                         <div class="contacts-icons__item">
-                            <a href="#"><img src="<?php bloginfo('template_url'); ?>/assets/images/icons/whats.svg"></a>
+                            <a href="<?php echo get_field("whats_link", "options")?>"><img src="<?php bloginfo('template_url'); ?>/assets/images/icons/whats.svg"></a>
                         </div>
                     </div>
 
@@ -32,7 +32,7 @@
                             <div class="contacts__img">
                                 <img src="<?php bloginfo('template_url'); ?>/assets/images/icons/phone.svg">
                             </div>
-                            <a href="tel:">+7(953)363-50-50</a>
+                            <a href="tel:<?php echo get_field("number_link", "options")?>"><?php echo get_field("number_link", "options")?></a>
                         </div>
                         </a>
                     </div>

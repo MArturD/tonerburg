@@ -2,7 +2,6 @@
     <div class="wrap">
         <div class="accept-wrap">
             <p class="accept-wrap-title heading"><?php echo get_field("accept_title", "options") ?></p>
-
             <div class="acceptance-conditions">
                 <div class="accept-approval">
                     <div class="accept-approval__title subtitle-font"><?php echo get_field("accept_subtitle_one", "options") ?></div>
